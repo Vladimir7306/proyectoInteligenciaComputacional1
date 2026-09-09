@@ -1,0 +1,1551 @@
+{
+  "version": 1,
+  "cost_unit": "metros",
+  "nodes": [
+    {
+      "id": "n1",
+      "name": "iOS lab",
+      "lat": 32.505466272730324,
+      "lng": -116.9246645749568,
+      "category": "laboratorio",
+      "building": "Por verificar",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n2",
+      "name": "Cafetería",
+      "lat": 32.50578344907374,
+      "lng": -116.9245173616592,
+      "category": "comida",
+      "building": "Por verificar",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n3",
+      "name": "CECE 2",
+      "lat": 32.505974471951035,
+      "lng": -116.92374581691023,
+      "category": "otro",
+      "building": "Por verificar",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n4",
+      "name": "Baños Hombres Piso 1 CECE",
+      "lat": 32.50608042153533,
+      "lng": -116.92378072835565,
+      "category": "bano",
+      "building": "CECE",
+      "floor": 0,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n5",
+      "name": "Baño administrativo",
+      "lat": 32.505595240899005,
+      "lng": -116.92485095398631,
+      "category": "bano",
+      "building": "Por verificar",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n6",
+      "name": "Baños Edificio 4",
+      "lat": 32.5053044959788,
+      "lng": -116.92364268473547,
+      "category": "bano",
+      "building": "Edificio 4",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n7",
+      "name": "Juice N Joy",
+      "lat": 32.5051333068815,
+      "lng": -116.92359715209908,
+      "category": "comida",
+      "building": "Por verificar",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n8",
+      "name": "Salón heterogéneas",
+      "lat": 32.50579429106568,
+      "lng": -116.92493476894023,
+      "category": "salon",
+      "building": "Por verificar",
+      "floor": 1,
+      "notes": "Ubicación original. Verificar edificio y piso."
+    },
+    {
+      "id": "n15",
+      "name": "Subiendo escaleras",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50636012763525,
+      "lng": -116.92464562145848,
+      "notes": ""
+    },
+    {
+      "id": "n16",
+      "name": "Entrada Alternativa Cafeteria",
+      "building": "Cafeteria",
+      "floor": 1,
+      "category": "comida",
+      "lat": 32.50591224998499,
+      "lng": -116.92436400535703,
+      "notes": ""
+    },
+    {
+      "id": "n17",
+      "name": "Salón Redes y Comunicación 2",
+      "building": "Edificio 8",
+      "floor": 1,
+      "category": "salon",
+      "lat": 32.506355951832035,
+      "lng": -116.9244592214469,
+      "notes": ""
+    },
+    {
+      "id": "n18",
+      "name": "Salón Minería de Datos 2",
+      "building": "Edificio 8",
+      "floor": 1,
+      "category": "salon",
+      "lat": 32.50639426514667,
+      "lng": -116.92432388771134,
+      "notes": ""
+    },
+    {
+      "id": "n19",
+      "name": "Plaza Civica",
+      "building": "Plaza Civica",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50556511535425,
+      "lng": -116.92447803861998,
+      "notes": ""
+    },
+    {
+      "id": "n20",
+      "name": "Baños Biblioteca",
+      "building": "Biblioteca",
+      "floor": 1,
+      "category": "bano",
+      "lat": 32.50569360010238,
+      "lng": -116.92409858021297,
+      "notes": ""
+    },
+    {
+      "id": "n21",
+      "name": "Entrada Edificio 1",
+      "building": "Edificio 1",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.505179147904734,
+      "lng": -116.92448678795556,
+      "notes": ""
+    },
+    {
+      "id": "n22",
+      "name": "Baños Edificio 1",
+      "building": "Edificio 1",
+      "floor": 2,
+      "category": "bano",
+      "lat": 32.50504392584166,
+      "lng": -116.92452437278565,
+      "notes": ""
+    },
+    {
+      "id": "n23",
+      "name": "Escaleras Piso 1 Edificio 1",
+      "building": "Edificio 1",
+      "floor": 1,
+      "category": "escalera",
+      "lat": 32.505107578352984,
+      "lng": -116.92457069902879,
+      "notes": ""
+    },
+    {
+      "id": "n24",
+      "name": "Escaleras Piso 2 Edificio 1",
+      "building": "Edificio 1",
+      "floor": 2,
+      "category": "escalera",
+      "lat": 32.50512517102038,
+      "lng": -116.92457722256543,
+      "notes": ""
+    },
+    {
+      "id": "n25",
+      "name": "Entrada Edificio 2",
+      "building": "Edificio 2",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.505175241594266,
+      "lng": -116.92410251747405,
+      "notes": ""
+    },
+    {
+      "id": "n26",
+      "name": "Entrada entre Edificio 1 y 2",
+      "building": "Edificio 1 y 2",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.50520242519863,
+      "lng": -116.92418435886941,
+      "notes": ""
+    },
+    {
+      "id": "n27",
+      "name": "Entrada Edificio 2",
+      "building": "Edificio 2",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.50531867957487,
+      "lng": -116.92410796859158,
+      "notes": ""
+    },
+    {
+      "id": "n28",
+      "name": "Baños Edificio 2",
+      "building": "Edificio 2",
+      "floor": 1,
+      "category": "bano",
+      "lat": 32.505165062146695,
+      "lng": -116.92415751802145,
+      "notes": ""
+    },
+    {
+      "id": "n29",
+      "name": "Salón Arte e Interculturalidad",
+      "building": "Edificio 9",
+      "floor": 1,
+      "category": "salon",
+      "lat": 32.50502554096969,
+      "lng": -116.92417091869729,
+      "notes": ""
+    },
+    {
+      "id": "n30",
+      "name": "IDK NOMBRE CAFE",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "comida",
+      "lat": 32.506423819930426,
+      "lng": -116.9239817633095,
+      "notes": ""
+    },
+    {
+      "id": "n31",
+      "name": "Acceso Elevador Piso 1 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "elevador",
+      "lat": 32.50646542510834,
+      "lng": -116.92405554432985,
+      "notes": ""
+    },
+    {
+      "id": "n32",
+      "name": "Acceso Escaleras Piso 1 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "escalera",
+      "lat": 32.50645499682735,
+      "lng": -116.92410790076642,
+      "notes": ""
+    },
+    {
+      "id": "n33",
+      "name": "Acceso Escalera Piso 2 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 2,
+      "category": "escalera",
+      "lat": 32.50645646314194,
+      "lng": -116.92410864297125,
+      "notes": ""
+    },
+    {
+      "id": "n34",
+      "name": "Acceso Elevador Piso 2 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 2,
+      "category": "elevador",
+      "lat": 32.50646665811143,
+      "lng": -116.9240563377983,
+      "notes": ""
+    },
+    {
+      "id": "n35",
+      "name": "Acceso Escalera Piso 3 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 3,
+      "category": "escalera",
+      "lat": 32.50648024258173,
+      "lng": -116.92400670935851,
+      "notes": ""
+    },
+    {
+      "id": "n36",
+      "name": "Acceso Elevador Piso 3 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 3,
+      "category": "elevador",
+      "lat": 32.50646777603411,
+      "lng": -116.92405767490787,
+      "notes": ""
+    },
+    {
+      "id": "n37",
+      "name": "Baños Hombres Piso 3 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 3,
+      "category": "bano",
+      "lat": 32.506433278788776,
+      "lng": -116.92395240068439,
+      "notes": ""
+    },
+    {
+      "id": "n38",
+      "name": "Baños Mujeres Piso 3 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 3,
+      "category": "bano",
+      "lat": 32.50640352052918,
+      "lng": -116.924093839325,
+      "notes": ""
+    },
+    {
+      "id": "n39",
+      "name": "Baños Mujeres Piso 1 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "bano",
+      "lat": 32.506447628647635,
+      "lng": -116.92415218727427,
+      "notes": ""
+    },
+    {
+      "id": "n40",
+      "name": "Baños Hombres Piso 1 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "bano",
+      "lat": 32.506479881844925,
+      "lng": -116.92398183740875,
+      "notes": ""
+    },
+    {
+      "id": "n41",
+      "name": "Entrada Alternativa Piso 2 Edificio 7",
+      "building": "Edificio 7",
+      "floor": 2,
+      "category": "entrada",
+      "lat": 32.50620306527973,
+      "lng": -116.92396299460387,
+      "notes": ""
+    },
+    {
+      "id": "n42",
+      "name": "Parte Abajo Escaleras Entrada Alternativa Edificio 7",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50615052752912,
+      "lng": -116.92411333667614,
+      "notes": ""
+    },
+    {
+      "id": "n43",
+      "name": "Punto Central CECE Piso 1",
+      "building": "CECE",
+      "floor": 0,
+      "category": "cruce",
+      "lat": 32.50606287622609,
+      "lng": -116.92372774702302,
+      "notes": ""
+    },
+    {
+      "id": "n44",
+      "name": "Parte Abajo Escaleras Pequeñas Hacia Entrada CECE",
+      "building": "CECE",
+      "floor": 0,
+      "category": "escalera",
+      "lat": 32.50609326091089,
+      "lng": -116.92389456495262,
+      "notes": ""
+    },
+    {
+      "id": "n45",
+      "name": "Parte Arriba Escaleras Hacia Entrada CECE",
+      "building": "CECE",
+      "floor": 1,
+      "category": "escalera",
+      "lat": 32.50607515377632,
+      "lng": -116.92397504520407,
+      "notes": ""
+    },
+    {
+      "id": "n46",
+      "name": "Parte de atras Papeleria",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.505676995054536,
+      "lng": -116.92386909724893,
+      "notes": ""
+    },
+    {
+      "id": "n47",
+      "name": "Parte Superior Escaleras a Saint Coco",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "escalera",
+      "lat": 32.505581932117295,
+      "lng": -116.92382617444814,
+      "notes": ""
+    },
+    {
+      "id": "n48",
+      "name": "Parte Inferior Escaleras a Saint Coco",
+      "building": "Afuera",
+      "floor": 0,
+      "category": "escalera",
+      "lat": 32.50559777594716,
+      "lng": -116.92374435285922,
+      "notes": ""
+    },
+    {
+      "id": "n49",
+      "name": "Saint Coco",
+      "building": "CECE",
+      "floor": 0,
+      "category": "comida",
+      "lat": 32.50567323847364,
+      "lng": -116.92361310102832,
+      "notes": ""
+    },
+    {
+      "id": "n50",
+      "name": "Acceso a Elevador Piso 1 Edificio 4",
+      "building": "Edificio 4",
+      "floor": 1,
+      "category": "elevador",
+      "lat": 32.50537609020727,
+      "lng": -116.92367057906237,
+      "notes": ""
+    },
+    {
+      "id": "n51",
+      "name": "Acceso a Escaleras Piso 1 Edificio 4",
+      "building": "Edificio 4",
+      "floor": 1,
+      "category": "escalera",
+      "lat": 32.50543041202234,
+      "lng": -116.92368801645017,
+      "notes": ""
+    },
+    {
+      "id": "n52",
+      "name": "Entrada Alternativa a Edificio 1",
+      "building": "Edificio 1",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.50503196537899,
+      "lng": -116.92448079672302,
+      "notes": ""
+    },
+    {
+      "id": "n53",
+      "name": "Salon Redes y Comunicacion 1",
+      "building": "Edificio 9",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50497572694749,
+      "lng": -116.9244055984711,
+      "notes": ""
+    },
+    {
+      "id": "n54",
+      "name": "Entrada Peatonal",
+      "building": "Estacionamiento 1",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.50594882718296,
+      "lng": -116.92499029300646,
+      "notes": ""
+    },
+    {
+      "id": "n55",
+      "name": "Entre escaleras, cafeteria y entrada peatonal",
+      "building": "Estacionamiento 1",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50601191247871,
+      "lng": -116.92471665152993,
+      "notes": ""
+    },
+    {
+      "id": "n56",
+      "name": "Entre salon redes y comunicacion y cafeteria",
+      "building": "Estacionamiento 1",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50606962899801,
+      "lng": -116.92439204784914,
+      "notes": ""
+    },
+    {
+      "id": "n57",
+      "name": "Salon Dia Lunes",
+      "building": "Edificio 4",
+      "floor": 3,
+      "category": "salon",
+      "lat": 32.505391060713364,
+      "lng": -116.92360840737821,
+      "notes": ""
+    },
+    {
+      "id": "n58",
+      "name": "Acceso Elevador Piso 3 Edificio 4",
+      "building": "Edificio 4",
+      "floor": 3,
+      "category": "elevador",
+      "lat": 32.5053740955878,
+      "lng": -116.92367076873781,
+      "notes": ""
+    },
+    {
+      "id": "n59",
+      "name": "Acceso Escaleras Piso 3 Edificio 4",
+      "building": "Edificio 4",
+      "floor": 3,
+      "category": "escalera",
+      "lat": 32.50542103242736,
+      "lng": -116.92368485033514,
+      "notes": ""
+    },
+    {
+      "id": "n60",
+      "name": "Salon Inteligencia Computacional Edificio 4",
+      "building": "Edificio 4",
+      "floor": 3,
+      "category": "salon",
+      "lat": 32.50544704560501,
+      "lng": -116.92362785339357,
+      "notes": ""
+    },
+    {
+      "id": "n61",
+      "name": "Salon ADS e IC Edificio 7",
+      "building": "Edificio 7",
+      "floor": 3,
+      "category": "salon",
+      "lat": 32.50632753067961,
+      "lng": -116.92399598658086,
+      "notes": ""
+    },
+    {
+      "id": "n62",
+      "name": "Acceso Elevador Piso 2 CECE",
+      "building": "CECE",
+      "floor": 1,
+      "category": "elevador",
+      "lat": 32.50609567610124,
+      "lng": -116.92370966076852,
+      "notes": ""
+    },
+    {
+      "id": "n63",
+      "name": "Acceso Escaleras Piso 2 CECE",
+      "building": "CECE",
+      "floor": 1,
+      "category": "escalera",
+      "lat": 32.50608436610653,
+      "lng": -116.92376330494882,
+      "notes": ""
+    },
+    {
+      "id": "n64",
+      "name": "Baños Piso 2 CECE",
+      "building": "CECE",
+      "floor": 1,
+      "category": "bano",
+      "lat": 32.50611094459187,
+      "lng": -116.92364394664764,
+      "notes": ""
+    },
+    {
+      "id": "n65",
+      "name": "Acceso Elevador Piso 1 CECE",
+      "building": "CECE",
+      "floor": 0,
+      "category": "elevador",
+      "lat": 32.50609737260033,
+      "lng": -116.92371167242528,
+      "notes": ""
+    },
+    {
+      "id": "n66",
+      "name": "Acceso Escaleras Piso 1 CECE",
+      "building": "CECE",
+      "floor": 0,
+      "category": "escalera",
+      "lat": 32.50608889010458,
+      "lng": -116.92374855279924,
+      "notes": ""
+    },
+    {
+      "id": "n67",
+      "name": "Baños Mujeres Piso 1 CECE",
+      "building": "CECE",
+      "floor": 0,
+      "category": "bano",
+      "lat": 32.50611066184208,
+      "lng": -116.9236593693495,
+      "notes": ""
+    },
+    {
+      "id": "n68",
+      "name": "Acceso Escaleras Piso 3 CECE",
+      "building": "CECE",
+      "floor": 2,
+      "category": "escalera",
+      "lat": 32.50608549710607,
+      "lng": -116.92376531660558,
+      "notes": ""
+    },
+    {
+      "id": "n69",
+      "name": "Baños Hombres Piso 4 CECE",
+      "building": "CECE",
+      "floor": 3,
+      "category": "bano",
+      "lat": 32.506111510091486,
+      "lng": -116.9236459583044,
+      "notes": ""
+    },
+    {
+      "id": "n70",
+      "name": "Acceso Elevador Piso 3 CECE",
+      "building": "CECE",
+      "floor": 2,
+      "category": "elevador",
+      "lat": 32.50609680710063,
+      "lng": -116.92371167242528,
+      "notes": ""
+    },
+    {
+      "id": "n71",
+      "name": "Baños Mujeres Piso 3 CECE",
+      "building": "CECE",
+      "floor": 2,
+      "category": "bano",
+      "lat": 32.506112641090674,
+      "lng": -116.92364662885667,
+      "notes": ""
+    },
+    {
+      "id": "n72",
+      "name": "Acceso Escaleras Piso 4 CECE",
+      "building": "CECE",
+      "floor": 3,
+      "category": "escalera",
+      "lat": 32.50608662810559,
+      "lng": -116.92376598715782,
+      "notes": ""
+    },
+    {
+      "id": "n73",
+      "name": "Acceso Elevador Piso 4 CECE",
+      "building": "CECE",
+      "floor": 3,
+      "category": "elevador",
+      "lat": 32.50609793810003,
+      "lng": -116.92371368408205,
+      "notes": ""
+    },
+    {
+      "id": "n74",
+      "name": "Acceso Escaleras Piso 2 Edificio 4",
+      "building": "Edificio 4",
+      "floor": 2,
+      "category": "escalera",
+      "lat": 32.50542668746663,
+      "lng": -116.9236868619919,
+      "notes": ""
+    },
+    {
+      "id": "n75",
+      "name": "Acceso Elevador Piso 2 Edificio 4",
+      "building": "Edificio 4",
+      "floor": 2,
+      "category": "elevador",
+      "lat": 32.50537805411737,
+      "lng": -116.92367210984231,
+      "notes": ""
+    },
+    {
+      "id": "n76",
+      "name": "Escalera cafeteria - E5",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50592206752554,
+      "lng": -116.92468397319318,
+      "notes": ""
+    },
+    {
+      "id": "n9",
+      "name": "Entre Edificio 5 y Cafeteria",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.5058222322808,
+      "lng": -116.92471273774765,
+      "notes": ""
+    },
+    {
+      "id": "n10",
+      "name": "Entre Cafeteria y Edificio Administrativo",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.505666057246195,
+      "lng": -116.92462012324462,
+      "notes": ""
+    },
+    {
+      "id": "n11",
+      "name": "Teatro civico",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.505350499766024,
+      "lng": -116.92448193599164,
+      "notes": ""
+    },
+    {
+      "id": "n12",
+      "name": "D'volada",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "comida",
+      "lat": 32.505715967344244,
+      "lng": -116.92430624526212,
+      "notes": ""
+    },
+    {
+      "id": "n13",
+      "name": "Pasillo Medio E1",
+      "building": "Edificio 1",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.505114184226386,
+      "lng": -116.92448068784537,
+      "notes": ""
+    },
+    {
+      "id": "n14",
+      "name": "Parte Intermedia Edificio 2",
+      "building": "Edificio 2",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50522352338096,
+      "lng": -116.92412532985497,
+      "notes": ""
+    },
+    {
+      "id": "n77",
+      "name": "Sendero hacia Edificio 2",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50559936719938,
+      "lng": -116.92418824898645,
+      "notes": ""
+    },
+    {
+      "id": "n78",
+      "name": "Subiendo las escaleras a la derecha",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.5062712998257,
+      "lng": -116.92477166374037,
+      "notes": ""
+    },
+    {
+      "id": "n79",
+      "name": "Entrada Edificio 7",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "entrada",
+      "lat": 32.506380938856026,
+      "lng": -116.92418691435235,
+      "notes": ""
+    },
+    {
+      "id": "n80",
+      "name": "Entrada a CECE Piso 1",
+      "building": "Afuera",
+      "floor": 0,
+      "category": "entrada",
+      "lat": 32.50569876887235,
+      "lng": -116.9237658869074,
+      "notes": ""
+    },
+    {
+      "id": "n81",
+      "name": "Entrada CECE",
+      "building": "CECE",
+      "floor": 0,
+      "category": "entrada",
+      "lat": 32.50604121356512,
+      "lng": -116.92383162872272,
+      "notes": ""
+    },
+    {
+      "id": "n82",
+      "name": "Afuera Edificio 4",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.505410500456925,
+      "lng": -116.92374032784545,
+      "notes": ""
+    },
+    {
+      "id": "n83",
+      "name": "Afuera Entre Admin y Edificio 8",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50627562181713,
+      "lng": -116.92447668221763,
+      "notes": ""
+    },
+    {
+      "id": "n84",
+      "name": "Afuera Edificio 8",
+      "building": "Afuera",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50630919718215,
+      "lng": -116.92436870689262,
+      "notes": ""
+    },
+    {
+      "id": "n85",
+      "name": "Punto Central Edificio 7 Piso 1",
+      "building": "Edificio 7",
+      "floor": 1,
+      "category": "cruce",
+      "lat": 32.50642405881232,
+      "lng": -116.92405561172396,
+      "notes": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "source": "n55",
+      "target": "n76",
+      "type": "escalera",
+      "cost": 12,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e2",
+      "source": "n54",
+      "target": "n55",
+      "type": "sendero",
+      "cost": 26.6,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e3",
+      "source": "n9",
+      "target": "n76",
+      "type": "sendero",
+      "cost": 11.42,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e4",
+      "source": "n9",
+      "target": "n8",
+      "type": "pasillo",
+      "cost": 21.05,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e5",
+      "source": "n9",
+      "target": "n10",
+      "type": "pasillo",
+      "cost": 19.42,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e6",
+      "source": "n10",
+      "target": "n5",
+      "type": "sendero",
+      "cost": 23.03,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e7",
+      "source": "n10",
+      "target": "n1",
+      "type": "sendero",
+      "cost": 22.6,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e8",
+      "source": "n10",
+      "target": "n19",
+      "type": "sendero",
+      "cost": 17.42,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e9",
+      "source": "n11",
+      "target": "n1",
+      "type": "sendero",
+      "cost": 21.43,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e10",
+      "source": "n19",
+      "target": "n11",
+      "type": "sendero",
+      "cost": 23.87,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e11",
+      "source": "n2",
+      "target": "n10",
+      "type": "sendero",
+      "cost": 16.23,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e12",
+      "source": "n11",
+      "target": "n21",
+      "type": "sendero",
+      "cost": 19.06,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e13",
+      "source": "n21",
+      "target": "n23",
+      "type": "pasillo",
+      "cost": 11.19,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e16",
+      "source": "n52",
+      "target": "n53",
+      "type": "sendero",
+      "cost": 9.43,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e17",
+      "source": "n53",
+      "target": "n29",
+      "type": "sendero",
+      "cost": 22.69,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e14",
+      "source": "n13",
+      "target": "n21",
+      "type": "pasillo",
+      "cost": 7.25,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e15",
+      "source": "n13",
+      "target": "n23",
+      "type": "pasillo",
+      "cost": 8.47,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e18",
+      "source": "n13",
+      "target": "n52",
+      "type": "pasillo",
+      "cost": 9.14,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e19",
+      "source": "n26",
+      "target": "n13",
+      "type": "pasillo",
+      "cost": 29.47,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e20",
+      "source": "n26",
+      "target": "n28",
+      "type": "pasillo",
+      "cost": 107.74,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e21",
+      "source": "n25",
+      "target": "n29",
+      "type": "sendero",
+      "cost": 17.84,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e22",
+      "source": "n27",
+      "target": "n14",
+      "type": "pasillo",
+      "cost": 8.98,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e23",
+      "source": "n25",
+      "target": "n14",
+      "type": "pasillo",
+      "cost": 5.78,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e24",
+      "source": "n26",
+      "target": "n14",
+      "type": "pasillo",
+      "cost": 6.01,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e25",
+      "source": "n12",
+      "target": "n77",
+      "type": "sendero",
+      "cost": 17.05,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e26",
+      "source": "n26",
+      "target": "n14",
+      "type": "pasillo",
+      "cost": 6.01,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e27",
+      "source": "n14",
+      "target": "n28",
+      "type": "pasillo",
+      "cost": 7.17,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e30",
+      "source": "n4",
+      "target": "n43",
+      "type": "pasillo",
+      "cost": 7.09,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e31",
+      "source": "n43",
+      "target": "n66",
+      "type": "pasillo",
+      "cost": 9.92,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e32",
+      "source": "n43",
+      "target": "n65",
+      "type": "pasillo",
+      "cost": 13.27,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e33",
+      "source": "n43",
+      "target": "n67",
+      "type": "pasillo",
+      "cost": 18.24,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e34",
+      "source": "n48",
+      "target": "n80",
+      "type": "sendero",
+      "cost": 11.41,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e35",
+      "source": "n49",
+      "target": "n80",
+      "type": "sendero",
+      "cost": 14.61,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e36",
+      "source": "n48",
+      "target": "n49",
+      "type": "sendero",
+      "cost": 14.9,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e37",
+      "source": "n45",
+      "target": "n44",
+      "type": "escalera",
+      "cost": 7.81,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e38",
+      "source": "n7",
+      "target": "n29",
+      "type": "sendero",
+      "cost": 55.12,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e39",
+      "source": "n7",
+      "target": "n25",
+      "type": "sendero",
+      "cost": 47.62,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e40",
+      "source": "n6",
+      "target": "n7",
+      "type": "sendero",
+      "cost": 19.51,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e28",
+      "source": "n44",
+      "target": "n81",
+      "type": "sendero",
+      "cost": 8.27,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e29",
+      "source": "n80",
+      "target": "n81",
+      "type": "sendero",
+      "cost": 38.57,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e41",
+      "source": "n43",
+      "target": "n81",
+      "type": "pasillo",
+      "cost": 10.03,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e42",
+      "source": "n6",
+      "target": "n50",
+      "type": "sendero",
+      "cost": 8.38,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e43",
+      "source": "n6",
+      "target": "n82",
+      "type": "sendero",
+      "cost": 14.93,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e44",
+      "source": "n27",
+      "target": "n82",
+      "type": "sendero",
+      "cost": 35.96,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e45",
+      "source": "n77",
+      "target": "n27",
+      "type": "sendero",
+      "cost": 32.11,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e46",
+      "source": "n2",
+      "target": "n12",
+      "type": "sendero",
+      "cost": 21.17,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e47",
+      "source": "n19",
+      "target": "n12",
+      "type": "sendero",
+      "cost": 23.26,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e48",
+      "source": "n16",
+      "target": "n12",
+      "type": "sendero",
+      "cost": 22.49,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e49",
+      "source": "n56",
+      "target": "n16",
+      "type": "escalera",
+      "cost": 17.7,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e50",
+      "source": "n55",
+      "target": "n56",
+      "type": "sendero",
+      "cost": 31.11,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e51",
+      "source": "n55",
+      "target": "n78",
+      "type": "escalera",
+      "cost": 29.3,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e52",
+      "source": "n56",
+      "target": "n83",
+      "type": "escalera",
+      "cost": 24.24,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e53",
+      "source": "n78",
+      "target": "n15",
+      "type": "sendero",
+      "cost": 15.4,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e54",
+      "source": "n15",
+      "target": "n83",
+      "type": "sendero",
+      "cost": 18.42,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e55",
+      "source": "n83",
+      "target": "n84",
+      "type": "sendero",
+      "cost": 10.79,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e56",
+      "source": "n17",
+      "target": "n84",
+      "type": "rampa",
+      "cost": 9.95,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e57",
+      "source": "n18",
+      "target": "n84",
+      "type": "rampa",
+      "cost": 10.35,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e58",
+      "source": "n79",
+      "target": "n84",
+      "type": "sendero",
+      "cost": 18.82,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e59",
+      "source": "n42",
+      "target": "n79",
+      "type": "rampa",
+      "cost": 26.53,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e60",
+      "source": "n56",
+      "target": "n42",
+      "type": "sendero",
+      "cost": 27.64,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e61",
+      "source": "n45",
+      "target": "n42",
+      "type": "sendero",
+      "cost": 15.44,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e62",
+      "source": "n85",
+      "target": "n79",
+      "type": "pasillo",
+      "cost": 13.21,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e63",
+      "source": "n39",
+      "target": "n85",
+      "type": "pasillo",
+      "cost": 9.43,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e64",
+      "source": "n79",
+      "target": "n39",
+      "type": "pasillo",
+      "cost": 8.1,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e65",
+      "source": "n32",
+      "target": "n85",
+      "type": "pasillo",
+      "cost": 5.99,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e66",
+      "source": "n31",
+      "target": "n85",
+      "type": "pasillo",
+      "cost": 4.6,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e67",
+      "source": "n40",
+      "target": "n85",
+      "type": "pasillo",
+      "cost": 9.29,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e68",
+      "source": "n30",
+      "target": "n85",
+      "type": "pasillo",
+      "cost": 6.93,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e69",
+      "source": "n20",
+      "target": "n77",
+      "type": "sendero",
+      "cost": 13.43,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e70",
+      "source": "n77",
+      "target": "n46",
+      "type": "sendero",
+      "cost": 31.15,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e71",
+      "source": "n20",
+      "target": "n46",
+      "type": "sendero",
+      "cost": 21.6,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e72",
+      "source": "n45",
+      "target": "n46",
+      "type": "sendero",
+      "cost": 45.37,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e73",
+      "source": "n46",
+      "target": "n47",
+      "type": "sendero",
+      "cost": 11.31,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e74",
+      "source": "n47",
+      "target": "n82",
+      "type": "sendero",
+      "cost": 20.69,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e75",
+      "source": "n51",
+      "target": "n82",
+      "type": "sendero",
+      "cost": 5.38,
+      "accessible": true,
+      "bidirectional": true
+    },
+    {
+      "id": "e76",
+      "source": "n47",
+      "target": "n48",
+      "type": "escalera",
+      "cost": 7.87,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e77",
+      "source": "n41",
+      "target": "n42",
+      "type": "escalera",
+      "cost": 15.26,
+      "accessible": false,
+      "bidirectional": true
+    }
+  ]
+}
