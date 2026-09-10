@@ -1901,6 +1901,24 @@
       "cost": 10.43,
       "accessible": true,
       "bidirectional": true
+    },
+    {
+      "id": "e113",
+      "source": "n23",
+      "target": "n24",
+      "type": "escalera",
+      "cost": 20,
+      "accessible": false,
+      "bidirectional": true
+    },
+    {
+      "id": "e114",
+      "source": "n24",
+      "target": "n22",
+      "type": "pasillo",
+      "cost": 10.3,
+      "accessible": true,
+      "bidirectional": true
     }
   ]
 }
