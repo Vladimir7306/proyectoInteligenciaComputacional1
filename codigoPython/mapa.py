@@ -1,13 +1,12 @@
 import folium 
 from folium.plugins import TimestampedGeoJson
 from datetime import datetime, timedelta
-from dijkstra import build_path_pero_pal_folium, dijkstra
-from diccionario import crearGrafo
+from dijkstra import build_path_pero_pal_folium
 
-grafito = crearGrafo()
-
-ruta, costo = dijkstra('n1','n8', grafito)
-
+# Esta funcion en su mayoria viene en la documentacion de folium, sin embargo le pedi a Gemini
+# Que me ayudara a adaptar el tema de los tiempos dinamicos, ya que como el numero de nodos tiende 
+# a variar por cada ruta los tiempos para que se impriman los nodos tambien lo hacen, fuera de eso el resto
+# es codigo de ejemplo de folium adaptado
 def mapa_interactivo(nodos, grafo):
     m = folium.Map([32.505466272730324, -116.9246645749568], zoom_start=19)
 
@@ -17,7 +16,7 @@ def mapa_interactivo(nodos, grafo):
     tiempos_dinamicos = []
     
     for i in range(len(coordenadas)):
-        nuevo_paso = tiempo_inicial + timedelta(minutes=i) # Incrementa 1 hora por nodo
+        nuevo_paso = tiempo_inicial + timedelta(minutes=i) 
         tiempos_dinamicos.append(nuevo_paso.isoformat() + "Z")
 
     lines = []
@@ -64,5 +63,3 @@ def mapa_interactivo(nodos, grafo):
     ).add_to(m)
     
     m.save("ElCETYS.html")
-
-mapa_interactivo(ruta,grafito)
