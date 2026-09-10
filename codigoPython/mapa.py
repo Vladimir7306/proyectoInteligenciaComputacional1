@@ -1,6 +1,8 @@
 import folium 
 from folium.plugins import TimestampedGeoJson
 from datetime import datetime, timedelta
+from pathlib import Path
+import webbrowser
 from dijkstra import build_path_pero_pal_folium
 
 # Esta funcion en su mayoria viene en la documentacion de folium, sin embargo le pedi a Gemini
@@ -62,4 +64,8 @@ def mapa_interactivo(nodos, grafo):
         add_last_point=True,
     ).add_to(m)
     
-    m.save("ElCETYS.html")
+
+    # apertura automatica del mapa en el navegador default algo bien
+    archivo_mapa = Path("ElCETYS.html").resolve()
+    m.save(str(archivo_mapa))
+    webbrowser.open_new_tab(archivo_mapa.as_uri())
