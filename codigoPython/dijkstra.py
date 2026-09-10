@@ -1,7 +1,5 @@
 from diccionario import crearGrafo
 import heapq
-#Ya despues mueves este a la interfaz 
-
 ybg = crearGrafo()
 
 def build_path_but_for_la_terminal(parent,target):

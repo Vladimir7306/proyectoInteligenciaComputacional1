@@ -1,13 +1,8 @@
 from diccionario import crearGrafo
 from dijkstra import dijkstra
-from mapa import mapa_interactivo #Realmente no es muy interactivo lol
+from mapa import mapa_interactivo #Super interactivo
 
-# Estoy a punto de desmayarme porque no he dormido y me acabo de dar cuenta de que jorge no puso
-# como tipo de arista los elevadores lol xd, porfa si testean este codigo usen el JSON nuevo 
-# de jorge que no meti yo
-
-#oki
-
+#Al usar este codigo se corre el Json mas reciente dentro de la carpeta codigoPython
 
 ybg = crearGrafo()
 print("\n BIENVENIDO A CETYS UNIVERSIDAD, ¿A DONDE QUIERES IR? \n")

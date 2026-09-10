@@ -65,7 +65,7 @@ def mapa_interactivo(nodos, grafo):
     ).add_to(m)
     
 
-    # apertura automatica del mapa en el navegador default algo bien
+    # apertura automatica del mapa en el navegador 
     archivo_mapa = Path("ElCETYS.html").resolve()
     m.save(str(archivo_mapa))
     webbrowser.open_new_tab(archivo_mapa.as_uri())
