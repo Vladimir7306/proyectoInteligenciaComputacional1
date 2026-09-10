@@ -1,9 +1,8 @@
 import json
 
+# Use gemini para hacer la funcion mas limpia aunque inicialmente la habia usado porque n1 no tenia vecinos
+# lo cual era porque escribi mal accesibility o accesible  
 # abrimos el archivo json y lo guardamos en la variable grafo
-
-import json
-
 def crearGrafo():
     # Abrimos el json y lo leemos, guardamos su contenido en una variable llamada grafo
     with open("grafoCETYS.json", "r", encoding="utf-8") as archivo:
@@ -51,7 +50,4 @@ def crearGrafo():
             if destino in grafoCETYS:
                 grafoCETYS[destino]['vecinos'].append(doble_conexion)
                 
-    return grafoCETYS
-
-grafo = crearGrafo()
-print(grafo)
+    return grafoCETYS       
