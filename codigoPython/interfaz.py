@@ -6,6 +6,9 @@ from mapa import mapa_interactivo #Realmente no es muy interactivo lol
 # como tipo de arista los elevadores lol xd, porfa si testean este codigo usen el JSON nuevo 
 # de jorge que no meti yo
 
+#oki
+
+
 ybg = crearGrafo()
 print("\n BIENVENIDO A CETYS UNIVERSIDAD, ¿A DONDE QUIERES IR? \n")
 
