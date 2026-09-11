@@ -18,6 +18,7 @@ def crearGrafo():
             "name": nodo.get("name"),
             "lat": nodo.get("lat"),
             "lng": nodo.get("lng"),
+            "category": nodo.get("category"),
             "vecinos": []
         }
         
@@ -50,4 +51,4 @@ def crearGrafo():
             if destino in grafoCETYS:
                 grafoCETYS[destino]['vecinos'].append(doble_conexion)
                 
-    return grafoCETYS       
+    return grafoCETYS

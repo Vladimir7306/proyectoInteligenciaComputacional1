@@ -17,7 +17,6 @@ def dijkstra(start,goal,grafo, evitar=[None]):
     while pq:
         d, current =  heapq.heappop(pq)
         if current == goal:
-            print("Camino:")
             break
         if d > dist[current]:
             continue
@@ -34,9 +33,6 @@ def dijkstra(start,goal,grafo, evitar=[None]):
 
     return build_path_but_for_la_terminal(padres,goal), dist[goal]
 
-ruta, costo = dijkstra('n1','n8', ybg)
-print(ruta)
-print(costo)
 
 # En esta funcion le pasamos los nodo y devuelve las coordendas en donde se encuentran
 def build_path_pero_pal_folium(nodos,grafo):
@@ -52,7 +48,5 @@ def build_path_pero_pal_folium(nodos,grafo):
         #devolvemos la lista 
     return lista_coordenadas
 
-coords = build_path_pero_pal_folium(ruta,ybg)
-print(coords)
 
 
