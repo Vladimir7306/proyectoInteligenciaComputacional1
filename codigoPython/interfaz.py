@@ -1,6 +1,6 @@
 from diccionario import crearGrafo
 from dijkstra import dijkstra
-from mapa import mapa_interactivo #Super interactivo
+from mapa import mapa_interactivo, mostrar_error_ruta #Super interactivo
 
 #Al usar este codigo se corre el Json mas reciente dentro de la carpeta codigoPython
 # 
@@ -26,6 +26,7 @@ def mas_cercano():
                                 mejor_nodo = n
                 
                 if menor_costo == float('inf'):
+                        mostrar_error_ruta()
                         print("No hay ningún camino disponible hacia los lugares de esa categoría.")
                 else:
                         mapa_interactivo(mejor_ruta, ybg)
@@ -45,6 +46,9 @@ def especifico():
                 evito = input("Que quieres evitar?")
                 print("Desplegando ruta y costo:")
                 ruta, costo = dijkstra(inicio,final,ybg,evito)
+                if costo == float('inf'):
+                        mostrar_error_ruta()
+                        return
                 coordenadas = mapa_interactivo(ruta,ybg)
                 print(f"La ruta que debes de seguir es: {ruta} \n")
                 print(f"Tiene un costo de {costo}\n")
@@ -54,6 +58,9 @@ def especifico():
         elif respuesta == 'n':
                 print("Desplegando ruta y costo:")
                 ruta, costo = dijkstra(inicio,final,ybg)
+                if costo == float('inf'):
+                        mostrar_error_ruta()
+                        return
                 coordenadas = mapa_interactivo(ruta,ybg)
                 print(f"La ruta que debes de seguir es: {ruta} \n")
                 print(f"Tiene un costo de {costo}\n")

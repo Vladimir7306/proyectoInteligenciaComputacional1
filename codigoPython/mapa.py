@@ -69,3 +69,16 @@ def mapa_interactivo(nodos, grafo):
     archivo_mapa = Path("ElCETYS.html").resolve()
     m.save(str(archivo_mapa))
     webbrowser.open_new_tab(archivo_mapa.as_uri())
+
+
+def mostrar_error_ruta():
+    mensaje = "Error: no existe una ruta disponible entre los nodos seleccionados."
+    print(mensaje)
+    archivo_mapa = Path("ElCETYS.html").resolve()
+    archivo_mapa.write_text(
+        '<!DOCTYPE html><html lang="es"><meta charset="utf-8">'
+        '<title>Ruta no disponible</title><body><h1>'
+        + mensaje + '</h1></body></html>',
+        encoding="utf-8",
+    )
+    webbrowser.open_new_tab(archivo_mapa.as_uri())
